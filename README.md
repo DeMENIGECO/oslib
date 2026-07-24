@@ -1,5 +1,7 @@
 # oslib
 
+[![Tests](https://github.com/DeMENIGECO/oslib/actions/workflows/tests.yml/badge.svg)](https://github.com/DeMENIGECO/oslib/actions/workflows/tests.yml)
+
 Una libreria Python leggera, veloce e affidabile per ottenere informazioni sul dispositivo e fornire utility di sistema.
 
 ---
