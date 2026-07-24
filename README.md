@@ -9,7 +9,7 @@ Una libreria Python leggera, veloce e affidabile per ottenere informazioni sul d
 Installa la libreria con pip:
 
 ```bash
-pip install oslib
+pip install demenigeco-oslib
 ```
 
 Verifica che l'installazione sia andata a buon fine:
