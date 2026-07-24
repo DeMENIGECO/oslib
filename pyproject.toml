@@ -9,6 +9,5 @@ description = "A Python library for OS-related utilities"
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{name = "DomeniGeco"}]
-
+authors = [{ name = "DomeniGeco" }]
 dependencies = []
