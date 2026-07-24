@@ -35,7 +35,7 @@ la libreria è installata correttamente.
 ```python
 from oslib import sys_info
 
-os_tag = sys_info.get_os_tag()
+os_tag = sys_info.get_platform_tag()
 
 print(os_tag)
 # Esempio output:
