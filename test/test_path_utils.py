@@ -1,3 +1,6 @@
+import os
+import ntpath
+
 from oslib.path_utils import (
     nt_to_posix, posix_to_nt, normalize
 )
@@ -33,7 +36,9 @@ def test_posix_to_nt_sample():
     assert result == "C:\\ciao\\11"
 
 
-def test_normalizzator():
+def test_normalizzator(monkeypatch):
+    monkeypatch.setattr(os, "name", "nt")
+    monkeypatch.setattr(os, "path", ntpath)
     result = normalize("C:\\", "Windows", "SysWOW64", "..", "System32")
 
     assert result == "C:\\Windows\\System32"
